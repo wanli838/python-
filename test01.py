@@ -78,3 +78,44 @@ area = 3.14 * radius ** 2
 #● 不能使用 Python 关键字作为变量名
 #● 变量名区分大小写
 #● 建议使用有意义的变量名，提高代码可读性
+
+#3变量值的用法
+x = 10
+print(x)  # 输出：10
+
+#3.2修改变量值
+y = 5
+print(y)  # 输出：5
+y = 10  # 修改变量值
+print(y)  # 输出：10
+
+#3.3变量的运算
+#变量可以参与各种运算：
+a = 10
+b = 20
+
+# 加法运算
+sum_result = a + b
+print(sum_result)  # 输出: 30
+
+# 字符串拼接
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name
+print(full_name)   # 输出: John Doe
+
+#4.4多变量赋值
+# Python 支持同时为多个变量赋值：
+# 方式一：多个变量赋不同的值
+x, y, z = 1, 2, 3
+print(x, y, z)  # 输出: 1 2 3
+
+# 方式二：多个变量赋相同的值
+a = b = c = 100
+print(a, b, c)  # 输出: 100 100 100
+
+#4.5变量的类型
+#Python 是动态类型语言，变量类型由赋给它的值决定：
+#可以使用 type() 函数查看变量类型：
+x = 5
+print(type(x))  # 输出: <class 'int'>
